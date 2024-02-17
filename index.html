@@ -14,17 +14,19 @@
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
-    <div class="preloader preloader__hide">
+    <!-- <div class="preloader">
       <img src="https://res.cloudinary.com/do9qt3sjt/image/upload/v1708197516/preloader_spvhz1.gif" alt="Pacman eating the dots, waiting for the video to load.">
-    </div>
+    </div> -->
     <section>
-      <video src="" class="video__container" muted autoplay loop>
+      <!-- commented out preloader and added poster -->
+      <!-- could use to add dimensions and a preload potentially -->
+      <video class="video__container" poster="https://res.cloudinary.com/do9qt3sjt/image/upload/v1708208285/poster-video_ogbshh.png" muted autoplay loop playsinline>
         <source src="https://res.cloudinary.com/do9qt3sjt/video/upload/v1708196793/video_hape0i.mp4" type="video/mp4">
       </video>
       <h1>
         Video Project
       </h1>
-      <button class="btn switch-btn slide">
+      <button class="btn switch-btn">
         <span>play</span>
         <span>pause</span>
         <span class="switch"></span>
