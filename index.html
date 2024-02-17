@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="styles/reset-styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+  <body>
+    <div class="preloader preloader__hide">
+      <img src="https://res.cloudinary.com/do9qt3sjt/image/upload/v1708197516/preloader_spvhz1.gif" alt="Pacman eating the dots, waiting for the video to load.">
+    </div>
+    <section>
+      <video src="" class="video__container" muted autoplay loop>
+        <source src="https://res.cloudinary.com/do9qt3sjt/video/upload/v1708196793/video_hape0i.mp4" type="video/mp4">
+      </video>
+      <h1>
+        Video Project
+      </h1>
+      <button class="btn switch-btn slide">
+        <span>play</span>
+        <span>pause</span>
+        <span class="switch"></span>
+      </button>
+    </section>
+    <script src="dist/main.js"></script>
+  </body>
+</html>
